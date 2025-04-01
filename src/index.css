@@ -66,3 +66,14 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* //Styline for components begins from here */
+PersonComponent {
+  background-color: red;
+}
+.person-name {
+  border: 4px solid red;
+  display: inline-block;
+  min-width: 350px;
+  margin: 10px;
+}
