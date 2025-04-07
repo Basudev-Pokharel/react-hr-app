@@ -1,79 +1,45 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
-
 /* //Styline for components begins from here */
-PersonComponent {
-  background-color: red;
+:root {
+  --primary-bg-color: #0a192f; /*Dary Navy for BGC */
+  --secondary-bg-color: #1f4068; /*Darker blur for BGC of containers */
+  --primary-text-color: #f4f4f4; /*Light Gray Body text, paragraph */
+  --secondary-text-color: #8892b0; /*soft blur Gray dates, captions */
+  --heading-text-color: #50e3c2; /*for Hewading , title, progress bar */
+  --success-color: #4caf50; /* Green For success yeh! */
+  --error-color: #4caf50; /* Red For warning */
+  --button--icon-hightlight-color: #e43f5a; /*Bright red for Buttons, icons, highlights. */
+  --hover-bg: #ff6f61; /*Coral for Hover effects, secondary buttons, animations.s */
+}
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+header {
+  background-color: var(--secondary-bg-color);
+}
+.person-cards {
+  width: 80%;
+  margin: auto;
+  min-height: calc(100vh - 20vh);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .person-name {
-  border: 4px solid red;
-  display: inline-block;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   min-width: 350px;
+  border: 1px solid var(--button--icon-hightlight-color);
+  max-height: 250px;
+  height: fit-content;
+  padding: 20px 0px;
   margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform 0.4s ease;
+}
+.person-name:hover {
+  transform: scale(1.0576);
 }

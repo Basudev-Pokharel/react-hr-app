@@ -3,10 +3,10 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
-function Header() {
+export function Header() {
   return (
     <>
-      <h1>The name of App is HR APP</h1>
+      <header>The name of App is Hr App</header>
     </>
   );
 }
@@ -14,7 +14,7 @@ function Header() {
 export function Footer() {
   return (
     <>
-      <h2>Copyright &copy; 2025. Basudev Pokharel & REACT-25K</h2>
+      <footer>Copyright &copy; 2025. Basudev Pokharel & REACT-25K</footer>
     </>
   );
 }
