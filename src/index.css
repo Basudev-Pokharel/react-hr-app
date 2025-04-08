@@ -32,6 +32,7 @@ header {
   min-width: 350px;
   border: 1px solid var(--button--icon-hightlight-color);
   max-height: 250px;
+  background-color: var(--secondary-bg-color);
   height: fit-content;
   padding: 20px 0px;
   margin: 10px;
@@ -42,4 +43,5 @@ header {
 }
 .person-name:hover {
   transform: scale(1.0576);
+  border: 2px solid var(--heading-text-color);
 }
