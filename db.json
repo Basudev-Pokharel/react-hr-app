@@ -1,1 +1,238 @@
-{}
+{
+  "employees": [
+    {
+      "id": "197",
+      "name": "Emma Vatanen",
+      "title": "Business Developer",
+      "salary": 3007,
+      "phone": "040-1018499",
+      "email": "sofia.vatanen@example.com",
+      "animal": "Lion",
+      "startDate": "2010-05-03",
+      "location": "Tampere",
+      "department": "Data Science",
+      "skills": [
+        "UI Design",
+        "UX Research",
+        "Prototyping"
+      ]
+    },
+    {
+      "id": "317",
+      "name": "Liam Kallio",
+      "title": "Product Owner",
+      "salary": 6728,
+      "phone": "040-8143439",
+      "email": "sofia.kallio@example.com",
+      "animal": "Penguin",
+      "startDate": "2010-08-08",
+      "location": "Tampere",
+      "department": "UX/UI Design",
+      "skills": [
+        "Recruiting",
+        "Communication",
+        "Employee Relations"
+      ]
+    },
+    {
+      "id": "870",
+      "name": "Sofia Ruotsalainen",
+      "title": "UX Designer",
+      "salary": 6503,
+      "phone": "040-5104012",
+      "email": "aleksi.rautio@example.com",
+      "animal": "Panda",
+      "startDate": "2015-05-01",
+      "location": "Tampere",
+      "department": "Data Science",
+      "skills": [
+        "Customer Support",
+        "CRM",
+        "Problem Solving"
+      ]
+    },
+    {
+      "id": "321",
+      "name": "Mikaela Laitinen",
+      "title": "Customer Support",
+      "salary": 5611,
+      "phone": "040-6002267",
+      "email": "aleksi.leppinen@example.com",
+      "animal": "Eagle",
+      "startDate": "2014-04-03",
+      "location": "Kuopio",
+      "department": "Engineering",
+      "skills": [
+        "Data Analysis",
+        "Excel",
+        "SQL"
+      ]
+    },
+    {
+      "id": "712",
+      "name": "Sofia Ruotsalainen",
+      "title": "Customer Support",
+      "salary": 3039,
+      "phone": "040-7314321",
+      "email": "emma.kallonen@example.com",
+      "animal": "Lion",
+      "startDate": "2012-07-02",
+      "location": "Espoo",
+      "department": "Finance",
+      "skills": [
+        "Sales Strategy",
+        "Customer Relations",
+        "Negotiation"
+      ]
+    },
+    {
+      "id": "567",
+      "name": "Antti Kallonen",
+      "title": "UX Designer",
+      "salary": 4792,
+      "phone": "040-5325011",
+      "email": "aleksi.kallonen@example.com",
+      "animal": "Wolf",
+      "startDate": "2013-02-08",
+      "location": "Helsinki",
+      "department": "IT",
+      "skills": [
+        "Data Analysis",
+        "Excel",
+        "SQL"
+      ]
+    },
+    {
+      "id": "734",
+      "name": "Liam Kallio",
+      "title": "HR Manager",
+      "salary": 4849,
+      "phone": "040-3094060",
+      "email": "mikaela.hämäläinen@example.com",
+      "animal": "Lion",
+      "startDate": "2011-06-01",
+      "location": "Helsinki",
+      "department": "Finance",
+      "skills": [
+        "Sales Strategy",
+        "Customer Relations",
+        "Negotiation"
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Antti Kallonen",
+      "title": "Product Owner",
+      "salary": 4082,
+      "phone": "040-7327057",
+      "email": "ella.ruotsalainen@example.com",
+      "animal": "Dolphin",
+      "startDate": "2020-07-03",
+      "location": "Vantaa",
+      "department": "Data Science",
+      "skills": [
+        "Business Strategy",
+        "Market Research",
+        "Leadership",
+        "sjdhfoksdjhlfkjsdlkfjlsdkjflksdjflkdsjflksdjlkfj"
+      ]
+    },
+    {
+      "id": "453",
+      "name": "Noa Leppinen",
+      "title": "Product Owner",
+      "salary": 6396,
+      "phone": "040-1997964",
+      "email": "mikaela.järvinen@example.com",
+      "animal": "Wolf",
+      "startDate": "2024-12-09",
+      "location": "Turku",
+      "department": "UX/UI Design",
+      "skills": [
+        "Sales Strategy",
+        "Customer Relations",
+        "Negotiation"
+      ]
+    },
+    {
+      "id": "802",
+      "name": "Liam Kallio",
+      "title": "Business Developer",
+      "salary": 6206,
+      "phone": "040-5373498",
+      "email": "viivi.vatanen@example.com",
+      "animal": "Eagle",
+      "startDate": "2025-04-03",
+      "location": "Espoo",
+      "department": "Human Resources",
+      "skills": [
+        "Sales Strategy",
+        "Customer Relations",
+        "Negotiation"
+      ]
+    },
+    {
+      "id": "7270",
+      "name": "Jack",
+      "title": "Business Developer",
+      "salary": 6206,
+      "phone": "040-5373498",
+      "email": "viivi.vatanen@example.com",
+      "animal": "Eagle",
+      "startDate": "2025-04-03",
+      "location": "Espoo",
+      "department": "Human Resources",
+      "skills": [
+        "Sales Strategy",
+        "Customer Relations",
+        "Negotiation"
+      ]
+    },
+    {
+      "id": 1748367722795,
+      "name": "Marky",
+      "title": "marky",
+      "salary": "marky",
+      "phone": "maky",
+      "startDate": "jshd",
+      "location": "jhj",
+      "department": "jhjk",
+      "skills": [
+        "kj"
+      ],
+      "email": "jhk",
+      "animal": "jhk"
+    },
+    {
+      "id": 1748368138860,
+      "name": "sdlkfh",
+      "title": "khfldkhw",
+      "salary": "l",
+      "phone": "hoh",
+      "email": "oih",
+      "animal": "oih",
+      "startDate": "io",
+      "location": "oioi",
+      "department": "§oi§oi§o§hoi§hoi§h§oi§",
+      "skills": [
+        "uiiohioh",
+        "kjgiuhio"
+      ]
+    },
+    {
+      "id": 1748368199673,
+      "name": "Ridesh",
+      "title": "Pokharel",
+      "salary": "39000",
+      "phone": "dkjhfkdsj",
+      "email": "kdshfkd",
+      "animal": "dkjshfkj",
+      "startDate": "dfkshkj",
+      "location": "fhdkjshkj",
+      "department": "kjfdhskj",
+      "skills": [
+        "hkjhfdwkjh"
+      ]
+    }
+  ]
+}
