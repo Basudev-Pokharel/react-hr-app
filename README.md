@@ -1,12 +1,53 @@
-# React + Vite
+# HR Employee Management App 👩‍💼👨‍💼
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Single Page Application (SPA) built with **React** that allows you to view, add, and edit employee profiles. The app connects to a **mock backend API** hosted on **Render** using `json-server`.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+Backend API: [Render JSON Server](https://hr-app-backend-api-3gc8.onrender.com/employees)  
+Frontend: This itself will be deplloyed so I will update this link later
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+✅ **View Employees**  
+Displays a list of employee cards fetched from the JSON API. Each card shows employee details like name, title, salary, contact, skills, and more.
+
+✅ **Add Employee**  
+Navigate to the "Add Employee" page to submit a new employee profile.  
+All fields are **mandatory** to ensure complete data.
+
+✅ **Edit Employee**  
+Click the **Edit** button on a card to update:
+
+- Department
+- Location
+- Salary
+- Skills
+
+Editing shows an inline form pre-filled with current values.  
+You can **Save** (sends a `PATCH` request) or **Cancel** the changes.
+
+✅ **Success Feedback**  
+On save, a "Data updated successfully" message appears and disappears after 5 seconds.
+
+✅ **Navigation**  
+Use **React Router** to navigate between:
+
+- `/` → Employee List
+- `/about` → About Page
+- `/add` → Add Employee
+
+---
+
+## 📦 Technologies Used
+
+- React + React Router
+- JSON Server (mock backend)
+- Axios for API calls
+- CSS Modules for Styling
+- Hosted backend on **Render**
+- Will Host frontend in i think Netlify I will update this field **Update this field You will see latere**
