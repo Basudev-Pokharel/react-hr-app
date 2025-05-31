@@ -28,5 +28,7 @@ let route = createBrowserRouter([
 ]);
 
 createRoot(document.getElementById("root")).render(
-  <RouterProvider router={route} />
+  <StrictMode>
+    <RouterProvider router={route} />
+  </StrictMode>
 );
