@@ -1,0 +1,10 @@
+/* Styling for Person List Main container of Card */
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+  justify-content: center;
+  background-color: #f7f9fc;
+  min-height: 100vh;
+}
