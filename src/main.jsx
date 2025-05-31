@@ -2,9 +2,9 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router";
-import PersonList from "./employee/PersonList.jsx";
 import About from "./About.jsx";
 import AddEmployee from "./employee/AddEmployee.jsx";
+import PersonList from "./employee/PersonList.jsx";
 
 let route = createBrowserRouter([
   {
