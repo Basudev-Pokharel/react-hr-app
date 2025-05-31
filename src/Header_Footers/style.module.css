@@ -1,0 +1,58 @@
+/* STyle for Header */
+.header {
+  background-color: #2b5dab;
+  color: #fff;
+  padding: 20px 20px;
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.header a {
+  color: white;
+  text-decoration: none;
+}
+.header span {
+  color: red;
+}
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header ul li {
+  display: inline-block;
+}
+
+.header ul li a {
+  text-decoration: none;
+  margin-left: 16px;
+
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.header ul li a:hover {
+  color: #ffea00;
+  cursor: pointer;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+/* Style For Fotoer */
+.footer {
+  background-color: #f0f2f5;
+  color: #444;
+  padding: 15px 0;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  border-top: 1px solid #ddd;
+  font-size: 14px;
+}

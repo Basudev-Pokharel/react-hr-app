@@ -1,52 +1,33 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import { useEffect, useState } from "react";
+import PersonList from "./employee/PersonList";
+import Header from "./Header_Footers/Header";
+import Footer from "./Header_Footers/Footer";
+import { Outlet } from "react-router";
+import employees from "./employee/employee_object";
+import axios from "axios";
+import useAxios from "./hooks/useAxios";
 
-function Header() {
+function App() {
+  const { get, post, patch } = useAxios();
+  const [employeeAll, setEmployees] = useState([]);
+
+  useEffect(() => {
+    get().then((response) => {
+      setEmployees(response.data);
+    });
+  }, []);
+  function onAddEmployee(newEmployee) {
+    post({ ...newEmployee });
+    setEmployees((prev) => [...prev, newEmployee]);
+  }
+
   return (
     <>
-      <h1>The name of App is HR APP</h1>
+      <Header />
+      <Outlet context={{ employeeAll, onAddEmployee }} />
+      <Footer />
     </>
   );
 }
 
-export function Footer() {
-  return (
-    <>
-      <h2>Copyright &copy; 2025. Basudev Pokharel & REACT-25K</h2>
-    </>
-  );
-}
-export function PersonComponent(props) {
-  return (
-    <div className="person-name">
-      <p>
-        <strong> Name:</strong>
-        {props.name}
-      </p>
-      <p>
-        <strong>Title:</strong>
-        {props.title}
-      </p>
-      <p>
-        <strong>Salary:</strong>
-        {props.salary}
-      </p>
-      <p>
-        <strong>Phone:</strong>
-        {props.phone}
-      </p>
-      <p>
-        <strong>Email:</strong>
-        {props.email}
-      </p>
-      <p>
-        <strong>Animal:</strong>
-        {props.animal}
-      </p>
-    </div>
-  );
-}
-
-export default Header;
+export default App;
