@@ -5,7 +5,7 @@ import style from "./AddEmployee.module.css";
 const AddEmployee = () => {
   const [formData, setFormData] = useState({});
   const { onAddEmployee } = useOutletContext();
-  const Navigate = useNavigate();
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     let name = e.target.name;
@@ -24,7 +24,7 @@ const AddEmployee = () => {
     e.preventDefault();
     handleUnInputtedValues();
     onAddEmployee(formData);
-    Navigate("/");
+    navigate("/");
   };
   return (
     <div className={style.addComponent}>
