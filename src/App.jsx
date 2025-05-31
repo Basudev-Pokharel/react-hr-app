@@ -5,18 +5,19 @@ import Footer from "./Header_Footers/Footer";
 import { Outlet } from "react-router";
 import employees from "./employee/employee_object";
 import axios from "axios";
+import useAxios from "./hooks/useAxios";
 
 function App() {
+  const { get, post, patch } = useAxios();
   const [employeeAll, setEmployees] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3001/employees").then((response) => {
+    get().then((response) => {
       setEmployees(response.data);
     });
   }, []);
-
   function onAddEmployee(newEmployee) {
-    axios.post("http://localhost:3001/employees", { ...newEmployee });
+    post({ ...newEmployee });
     setEmployees((prev) => [...prev, newEmployee]);
   }
 

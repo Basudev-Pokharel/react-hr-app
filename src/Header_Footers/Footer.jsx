@@ -1,9 +1,11 @@
 import React from "react";
-import "./style.css";
+import style from "./style.module.css";
 
 const Footer = () => {
   return (
-    <footer className="footer">Copyright &copy; 2025 @ Basudev Pokharel</footer>
+    <footer className={style.footer}>
+      Copyright &copy; 2025 @ Basudev Pokharel
+    </footer>
   );
 };
 

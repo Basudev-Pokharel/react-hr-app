@@ -1,9 +1,9 @@
 import React from "react";
-import "./index.css";
+import style from "./About.module.css";
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div className={style["about-container"]}>
       <h2>About Our HR App</h2>
       <p>
         Our Human Resource Management App is designed to simplify employee data
