@@ -8,3 +8,13 @@
   background-color: #f7f9fc;
   min-height: 100vh;
 }
+.ErrorMessage {
+  color: #b00020;
+  background-color: #ffe6e6;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  font-size: 1.25rem;
+  text-align: center;
+  line-height: 1.6;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
