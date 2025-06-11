@@ -7,7 +7,7 @@ A Single Page Application (SPA) built with **React** that allows you to view, ad
 ## 🌐 Live Demo
 
 Backend API: [Render JSON Server](https://hr-app-backend-api-3gc8.onrender.com/employees)  
-Frontend: [Load Frontend HR](https://react-hr-app-git-development-basudev-pokharels-projects.vercel.app/)
+Frontend: [Load Frontend HR](https://react-hr-app-ashen.vercel.app/)
 
 ---
 
