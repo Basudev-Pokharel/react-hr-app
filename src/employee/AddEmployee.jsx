@@ -19,10 +19,9 @@ const AddEmployee = () => {
       ["id"]: String(Date.now()),
     }));
   };
-  // Now the form submitted here
+
   const submitAdd = (e) => {
     e.preventDefault();
-    handleUnInputtedValues();
     onAddEmployee(formData);
     navigate("/");
   };

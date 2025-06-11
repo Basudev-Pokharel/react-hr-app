@@ -31,8 +31,6 @@ const PersonCard = (props) => {
       }
     }
   };
-  // calculateWorkedYears() Function Ends here;
-
   //Edit function starts from here
   const handleEdit = () => {
     setIsEditing((prev) => !prev);
@@ -66,6 +64,25 @@ const PersonCard = (props) => {
     setMessage("Updated data saved!!");
     setTimeout(() => setMessage(""), 3000);
   };
+  let animal = props.animal.toLowerCase();
+  const animalEmojis = {
+    lion: "🦁",
+    wolf: "🐺",
+    eagle: "🦅",
+    tiger: "🐯",
+    fox: "🦊",
+    bear: "🐻",
+    owl: "🦉",
+    cat: "🐱",
+    dog: "🐶",
+    elephant: "🐘",
+    dolphin: "🐬",
+    horse: "🐴",
+    rabbit: "🐰",
+    panda: "🐼",
+    snake: "🐍",
+  };
+  let emoji = animalEmojis[animal] || "🚫";
 
   return (
     <div className={style.person}>
@@ -130,13 +147,7 @@ const PersonCard = (props) => {
           <p>
             <strong>animal: </strong>
             {props.animal}
-            {props.animal && props.animal.toLowerCase() === "lion"
-              ? "🦁"
-              : props.animal.toLowerCase() === "wolf"
-              ? "🐺"
-              : props.animal.toLowerCase() === "eagle"
-              ? "🦅"
-              : ""}
+            {props.animal && emoji}
           </p>
           <p>
             <label htmlFor="skills">
@@ -191,13 +202,7 @@ const PersonCard = (props) => {
           <p>
             <strong>animal: </strong>
             {editObject.animal}
-            {editObject.animal && editObject.animal.toLowerCase() === "lion"
-              ? "🦁"
-              : editObject.animal.toLowerCase() === "wolf"
-              ? "🐺"
-              : editObject.animal.toLowerCase() === "eagle"
-              ? "🦅"
-              : ""}
+            {props.animal && emoji}
           </p>
           <p>
             <strong>Skills: </strong>

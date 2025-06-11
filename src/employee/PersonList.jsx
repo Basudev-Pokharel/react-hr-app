@@ -7,12 +7,16 @@ const PersonList = () => {
   const { employeeAll } = useOutletContext();
   return (
     <div className={style.Container}>
-      {employeeAll.length == 0 ? (
+      {employeeAll.length == 1 ? (
         <>
           <h1>
-            We are having trouble while fethching data from server. You might
-            have no runned the:<code>npm run server</code> Command. try running
-            it and check
+            We are having trouble fetching data from the server. The server
+            might be waking up or temporarily unavailable. Please wait a moment
+            and try again.
+            <br />
+            If the issue continues, check your internet connection or the server
+            status at:
+            <code>https://hr-app-backend-api-3gc8.onrender.com/employees</code>
           </h1>
         </>
       ) : (
