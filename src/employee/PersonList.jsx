@@ -7,7 +7,7 @@ const PersonList = () => {
   const { employeeAll } = useOutletContext();
   return (
     <div className={style.Container}>
-      {employeeAll.length == 1 ? (
+      {employeeAll.length == 0 ? (
         <>
           <h1>
             We are having trouble fetching data from the server. The server
