@@ -7,7 +7,7 @@ A Single Page Application (SPA) built with **React** that allows you to view, ad
 ## 🌐 Live Demo
 
 Backend API: [Render JSON Server](https://hr-app-backend-api-3gc8.onrender.com/employees)  
-Frontend: [Load Frontend HR](https://react-hr-app-xi.vercel.app)
+Frontend: [Load Frontend HR](https://react-hr-app-git-development-basudev-pokharels-projects.vercel.app/)
 
 ---
 
@@ -50,4 +50,4 @@ Use **React Router** to navigate between:
 - Axios for API calls
 - CSS Modules for Styling
 - Hosted backend on **Render**
-- Will Host frontend in i think Netlify I will update this field **Update this field You will see latere**
+- Will Host frontend in **Vercel**
